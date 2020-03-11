@@ -1,0 +1,98 @@
+header{
+    height: 70px;
+    border: solid;
+    
+    animation-name: "ourframe"
+        @keyframe ourframe{
+            image:skew(X,Y,Z)
+    }
+}
+nav{
+    height: 44px;
+    border: solid;
+    position: sticky;
+    backface-visibility: hidden
+}
+section{
+    height: 225px;
+    border: solid;
+    border-bottom: hidden;
+    
+    width:20%;
+}
+article{
+    height: 225px;
+    border: solid;
+    border-top:hidden;
+    width:20%;
+   
+    background-size: cover
+    
+}
+aside{
+    height: 458px;
+    border: solid;
+    width:79.4%;
+    float:right;
+    margin-top: -460px;
+    
+     
+}
+footer{
+    height:70px;
+  
+    border:solid;
+    
+}
+
+body{
+    
+   
+    background-image: url(images/b1.jpg);
+    background-size: cover;
+    background-blend-mode:lighten
+
+}
+p{
+    text-align: center;
+    color:darkred
+        font-size:110px;
+   
+    
+}
+img{
+    
+  
+    height: 175px;
+    width: 25%;
+    border:solid;
+  
+     
+}
+#a1{
+    height:80px;
+    width: 60%;
+    border:solid;
+  
+    
+}
+div{
+    padding-left: 5%;
+   
+}
+span{
+ font-family:cursive;
+    font-size: 60px;
+    color: ghostwhite;
+    font-style:normal;
+    text-align: center
+}
+a:link{
+    color:cornsilk;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color:cornsilk
+}
